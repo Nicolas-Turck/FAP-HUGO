@@ -27,19 +27,19 @@ name = "L'école"
 url = "/lecole.html"
 weight = 4
 [[menu.social]]
-name = "Twitter"
-pre = "<i class='fab fa-twitter'></i>"
-url = "https://twitter.com/pakstech"
-weight = 1
+name = "GitHub"
+pre = "<i class='fab fa-github'></i>"
+url = "https://github.com/pakstech"
+weight = 3
 [[menu.social]]
 name = "YouTube"
 pre = "<i class='fab fa-youtube'></i>"
 url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
 weight = 2
 [[menu.social]]
-name = "GitHub"
-pre = "<i class='fab fa-github'></i>"
-url = "https://github.com/pakstech"
-weight = 3
+name = "Twitter"
+pre = "<i class='fab fa-twitter'></i>"
+url = "https://twitter.com/pakstech"
+weight = 1
 [params]
 description = "My site description"

@@ -1,10 +1,14 @@
 ---
-title: "My First Post"
-date: 2020-11-13T07:19:33+01:00
+title: My First Post
+date: 2020-11-13T07:19:33.000+01:00
+description: This is a short description of the page
+menu:
+  main:
+    name: first-post
+    weight: 5
 draft: true
-description: "This is a short description of the page"
----
 
+---
 # H1 level title
 
 This is a paragraph.
