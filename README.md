@@ -5,5 +5,5 @@
 
 screenshot de la page index
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/main/themes/fapTh%C3%A8me/static/img/index.png)
 
