@@ -15,10 +15,6 @@ name = "Contact"
 url = "/Contact"
 weight = 2
 [[menu.main]]
-name = "Les étudiants"
-url = "/Etudiants"
-weight = 3
-[[menu.main]]
 name = "Les projets"
 url = "/projets"
 weight = 4
