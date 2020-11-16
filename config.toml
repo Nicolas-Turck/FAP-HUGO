@@ -7,7 +7,7 @@ theme = "fapThème"
 
 [[menu.main]]
   name = "L'école"
-  url = "/Ecole"
+  url = "/lecole.html"
 
 [[menu.main]]
   name = "Les projets"
