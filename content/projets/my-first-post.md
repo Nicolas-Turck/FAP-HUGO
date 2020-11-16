@@ -5,7 +5,7 @@ description: This is a short description of the page
 menu:
   main:
     name: first-post
-    weight: 5
+    weight: 1
 draft: true
 
 ---
