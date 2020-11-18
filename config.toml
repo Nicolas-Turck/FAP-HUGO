@@ -7,19 +7,19 @@ theme = "fapThème"
 
 [[menu.main]]
   name = "L'école"
-  url = "/lecole.html"
+  url = "/pages/Lecole"
 
 [[menu.main]]
   name = "Les projets"
-  url = "/projets"
+  url = "/pages/projets"
 
 [[menu.main]]
   name = "Les étudiants"
-  url = "/Etudiants"
+  url = "/pages/Etudiants"
 
 [[menu.main]]
   name = "Contact"
-  url = "/Contact"
+  url = "/pages/Contact"
 
 
 
