@@ -1,0 +1,12 @@
+---
+label: FAP-HUGO
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+pages:
+- content/les-etudiants.md

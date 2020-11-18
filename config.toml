@@ -1,50 +1,41 @@
 baseURL = "http://example.org/"
 languageCode = "fr-fr"
-title = "Fabrique à projets "
 theme = "fapThème"
+title = "Fabrique à projets "
+[[menu.footer]]
+name = "Privacy"
+url = "/privacy"
+weight = 1
+[[menu.footer]]
+name = "About"
+url = "/about"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "/Contact"
+weight = 2
+[[menu.main]]
+name = "Les projets"
+url = "/projets"
+weight = 4
+[[menu.main]]
+name = "L'école"
+url = "/lecole.html"
+weight = 5
+[[menu.social]]
+name = "GitHub"
+pre = "<i class='fab fa-github'></i>"
+url = "https://github.com/pakstech"
+weight = 3
+[[menu.social]]
+name = "YouTube"
+pre = "<i class='fab fa-youtube'></i>"
+url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+weight = 2
+[[menu.social]]
+name = "Twitter"
+pre = "<i class='fab fa-twitter'></i>"
+url = "https://twitter.com/pakstech"
+weight = 1
 [params]
-    description = "My site description"
-
-[[menu.main]]
-  name = "L'école"
-  url = "/Ecole"
-
-[[menu.main]]
-  name = "Les projets"
-  url = "/projets"
-
-[[menu.main]]
-  name = "Les étudiants"
-  url = "/Etudiants"
-
-[[menu.main]]
-  name = "Contact"
-  url = "/Contact"
-
-
-
-
-
-[[menu.social]]
-    name = "GitHub"
-    url = "https://github.com/pakstech"
-    pre = "<i class='fab fa-github'></i>"
-
-[[menu.social]]
-    name = "YouTube"
-    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
-    pre = "<i class='fab fa-youtube'></i>"
-
-[[menu.social]]
-    name = "Twitter"
-    url = "https://twitter.com/pakstech"
-    pre = "<i class='fab fa-twitter'></i>"
-
-[[menu.footer]]
-  name = "About"
-  url = "/about"
-
-[[menu.footer]]
-  name = "Privacy"
-  url = "/privacy"
-  
+description = "My site description"
