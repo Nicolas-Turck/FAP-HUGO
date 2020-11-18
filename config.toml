@@ -1,6 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "fr-fr"
-title = "Fabrique à projets "
 theme = "fapThème"
 [params]
     description = "My site description"
@@ -26,25 +25,19 @@ theme = "fapThème"
 
 
 [[menu.social]]
-    name = "GitHub"
-    url = "https://github.com/pakstech"
-    pre = "<i class='fab fa-github'></i>"
-
+name = "GitHub"
+pre = "<i class='fab fa-github'></i>"
+url = "https://github.com/pakstech"
+weight = 3
 [[menu.social]]
-    name = "YouTube"
-    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
-    pre = "<i class='fab fa-youtube'></i>"
-
+name = "YouTube"
+pre = "<i class='fab fa-youtube'></i>"
+url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+weight = 2
 [[menu.social]]
-    name = "Twitter"
-    url = "https://twitter.com/pakstech"
-    pre = "<i class='fab fa-twitter'></i>"
-
-[[menu.footer]]
-  name = "About"
-  url = "/about"
-
-[[menu.footer]]
-  name = "Privacy"
-  url = "/privacy"
-  
+name = "Twitter"
+pre = "<i class='fab fa-twitter'></i>"
+url = "https://twitter.com/pakstech"
+weight = 1
+[params]
+description = "My site description"
