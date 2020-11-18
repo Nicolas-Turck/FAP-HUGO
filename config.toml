@@ -1,27 +1,29 @@
 baseURL = "http://example.org/"
 languageCode = "fr-fr"
 theme = "fapThème"
-title = "Fabrique à projets "
-[[menu.footer]]
-name = "Privacy"
-url = "/privacy"
-weight = 1
-[[menu.footer]]
-name = "About"
-url = "/about"
-weight = 2
+[params]
+    description = "My site description"
+
 [[menu.main]]
-name = "Contact"
-url = "/Contact"
-weight = 2
+  name = "L'école"
+  url = "/pages/Lecole"
+
 [[menu.main]]
-name = "Les projets"
-url = "/projets"
-weight = 4
+  name = "Les projets"
+  url = "/pages/projets"
+
 [[menu.main]]
-name = "L'école"
-url = "/lecole.html"
-weight = 5
+  name = "Les étudiants"
+  url = "/pages/Etudiants"
+
+[[menu.main]]
+  name = "Contact"
+  url = "/pages/Contact"
+
+
+
+
+
 [[menu.social]]
 name = "GitHub"
 pre = "<i class='fab fa-github'></i>"

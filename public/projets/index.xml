@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projets on Fabrique à projets </title>
+    <link>http://example.org/projets/</link>
+    <description>Recent content in Projets on Fabrique à projets </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 13 Nov 2020 07:19:33 +0100</lastBuildDate><atom:link href="http://example.org/projets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/projets/my-first-post/</link>
+      <pubDate>Fri, 13 Nov 2020 07:19:33 +0100</pubDate>
+      
+      <guid>http://example.org/projets/my-first-post/</guid>
+      <description>H1 level title This is a paragraph.
+This another paragraph with emphasis and strong emphasis.
+H2 level title H3 level title This is a hyperlink
+I like lists because they are:
+ fun   easy, and   fast.  Lists can also be ordered:
+ First element Second element   with an unordered sublist  And you can add tables:
+   Column 1 Column 2 Column 3     I like tables   This is content    </description>
+    </item>
+    
+  </channel>
+</rss>
