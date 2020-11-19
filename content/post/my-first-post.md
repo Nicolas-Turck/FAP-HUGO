@@ -1,14 +1,9 @@
 ---
-title: My First Post
-date: 2020-11-13T07:19:33.000+01:00
-description: This is a short description of the page
-menu:
-  main:
-    name: first-post
-    weight: 1
-draft: true
-
+title: "My First Post"
+date: 2020-11-19T16:42:14+01:00
+draft: false
 ---
+
 # H1 level title
 
 This is a paragraph.
@@ -38,3 +33,4 @@ And you can add tables:
 | -------- | -------- | -------- |
 | I        | like     | tables   |
 | This     | is       | content  |
+

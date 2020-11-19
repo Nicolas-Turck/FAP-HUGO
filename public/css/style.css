@@ -2,9 +2,6 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5em;
 }*/
-.title-image {
-    padding-bottom: 2em;
-}
 main
 {
     width: 100%;
@@ -33,10 +30,21 @@ __________________________________________________________________*/
 {
     margin-top: 0%;
 }
+.wallpaper
+{
+    margin-top: 0%;
+ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
 .firstline
 {
     margin-right: 10%;
-    float: right;
 }
 .navbar
 {
@@ -44,6 +52,7 @@ __________________________________________________________________*/
     margin-right: 10%;
     margin-top: 1%;
 }
+
 .button1
 {
     background-color: #00a5a5;
@@ -57,19 +66,10 @@ __________________________________________________________________*/
     font-size: small;
     border: none;
 }
-/*_________________________________________________________________
 
----------------------------ENDHEADER------------------------------
-__________________________________________________________________*/
-
-.wallpaper
+.firstline
 {
-    margin-top: 0%;
- 
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
+    float: right; 
 }
 .content
 {
@@ -133,65 +133,6 @@ h3
 .button3 a{
     color: white;
 }
-/*_________________________________________________________________
-
----------------------------ALLPROJETSMAIN------------------------------
-__________________________________________________________________*/
-.containervedetteprojet
-{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between ;
-    
-}
-.projetvedette li
-{
-    list-style: none;
-}
-.imgpro
-{
-    
-    height: 10em;
-    width: 100em;
-}
-
-.buttonproject
-{
-    border-radius: 10px;
-    background-color: white;
-    font-size: small;
-    border: none;
-}
-.buttonproject a
-{
-    color: black
-}
-.navbarprojetpage
-{
-    display: inline-flex;
-    justify-content: space-around;
-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    background-color: black;
-}
-.navbarprojetpage a{
-    color: white;
-}
-.projetnavbar
-{
-    display: inline-flex; justify-content: space-between;color:white; list-style: none;
-}
-/*_________________________________________________________________
-
----------------------------ENDPROJETSMAIN------------------------------
-__________________________________________________________________*/
-
 
 /*_________________________________________________________________
 
@@ -203,7 +144,6 @@ __________________________________________________________________*/
 }
 .containerfooter
 {
-
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -269,8 +209,3 @@ __________________________________________________________________*/
 {
     text-decoration: underline red;
 }
-
-/*_________________________________________________________________
-
----------------------------ENDFOOTER------------------------------
-__________________________________________________________________*/
