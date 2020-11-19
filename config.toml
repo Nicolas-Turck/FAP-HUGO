@@ -2,7 +2,11 @@ baseURL = "http://example.org/"
 languageCode = "fr-fr"
 theme = "fapThème"
 [params]
-    description = "My site description"
+    description = "My First Post"
+    author = "Janne Kemppainen"
+    authorImage = "/img/abeille.png"
+    images = "/img/imgprojet.png"
+    
 
 [[menu.main]]
   name = "L'école"
