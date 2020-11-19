@@ -3,7 +3,11 @@
 
 # Géneration du site static 
 
-screenshot de la page index
+# screenshot de la page index
 
 ![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/main/themes/fapTh%C3%A8me/static/img/index.png)
+
+# screenshot de la page projets
+
+![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/main/themes/fapTh%C3%A8me/static/img/projetscreenshot.png)
 
