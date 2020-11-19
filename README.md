@@ -5,7 +5,7 @@
 
 # screenshot de la page index
 
-![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/main/themes/fapTh%C3%A8me/static/img/screenshotpageindex.png)
+![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/nicos/themes/fapTh%C3%A8me/static/img/screenshotpageindex.png)
 
 # screenshot de la page projets
 
