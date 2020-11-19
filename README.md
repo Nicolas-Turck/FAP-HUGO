@@ -9,5 +9,5 @@
 
 # screenshot de la page projets
 
-![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/main/themes/fapTh%C3%A8me/static/img/projetscreenshot.png)
+![alt text](https://github.com/Nicolas-Turck/FAP-HUGO/blob/nicos/themes/fapTh%C3%A8me/static/img/projetscreenshot.png)
 
