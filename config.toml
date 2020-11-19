@@ -7,37 +7,54 @@ theme = "fapThème"
 [[menu.main]]
   name = "L'école"
   url = "/pages/Lecole"
+  weight = 1
 
 [[menu.main]]
   name = "Les projets"
   url = "/pages/projets"
+  weight = 2
 
 [[menu.main]]
   name = "Les étudiants"
   url = "/pages/Etudiants"
+  weight = 3
 
 [[menu.main]]
   name = "Contact"
   url = "/pages/Contact"
+  weight = 4
 
 
 
 
 
 [[menu.social]]
-name = "GitHub"
-pre = "<i class='fab fa-github'></i>"
-url = "https://github.com/pakstech"
-weight = 3
+name = "Facebook"
+pre = "<i class='fab fa-facebook-f'></i>"
+url = "https://www.facebook.com/"
+weight = 1
+
 [[menu.social]]
 name = "YouTube"
 pre = "<i class='fab fa-youtube'></i>"
 url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
-weight = 2
+weight = 5
+
 [[menu.social]]
 name = "Twitter"
 pre = "<i class='fab fa-twitter'></i>"
 url = "https://twitter.com/pakstech"
-weight = 1
-[params]
-description = "My site description"
+weight = 4
+
+[[menu.social]]
+name = "Linkedin"
+pre = "<i class='fab fa-linkedin-in'></i>"
+url = "https://fr.linkedin.com/"
+weight = 2
+
+[[menu.social]]
+name = "Instagram"
+pre = "<i class='fab fa-instagram'></i>"
+url = "https://www.instagram.com/"
+weight = 3
+
