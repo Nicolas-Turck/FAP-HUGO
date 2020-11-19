@@ -134,13 +134,56 @@ h3
 
 ---------------------------ALLPROJETSMAIN------------------------------
 __________________________________________________________________*/
+.containervedetteprojet
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between ;
+    
+}
+.projetvedette li
+{
+    list-style: none;
+}
 .imgpro
 {
     
-    height: 20em;
-    width: 200em;
+    height: 10em;
+    width: 100em;
 }
 
+.buttonproject
+{
+    border-radius: 10px;
+    background-color: white;
+    font-size: small;
+    border: none;
+}
+.buttonproject a
+{
+    color: black
+}
+.navbarprojetpage
+{
+    display: inline-flex;
+    justify-content: space-around;
+position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color: black;
+}
+.navbarprojetpage a{
+    color: white;
+}
+.projetnavbar
+{
+    display: inline-flex; justify-content: space-between;color:white; list-style: none;
+}
 /*_________________________________________________________________
 
 ---------------------------ENDPROJETSMAIN------------------------------
@@ -155,6 +198,7 @@ __________________________________________________________________*/
 }
 .containerfooter
 {
+
     width: 70%;
     display: flex;
     flex-direction: row;
