@@ -155,7 +155,7 @@ __________________________________________________________________*/
 .imgpro
 {
     
-    height: 10em;
+    /*height: 10em;*/
     width: 100em;
 }
 
@@ -191,8 +191,46 @@ position: center;
 
 ---------------------------ENDPROJETSMAIN------------------------------
 __________________________________________________________________*/
+/*_________________________________________________________________
 
-
+---------------------------EtudiantsMAIN------------------------------
+__________________________________________________________________*/
+.navbaretudiantspage
+{
+    display: inline-flex;
+    justify-content: space-around;
+position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+   
+}
+.navbaretudiantspage a{
+    color: black;
+}
+.etudiantsnavbar
+{
+    display: inline-flex; justify-content: space-between;color:white; list-style: none;
+}
+.navbaretudiants {
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imgtexte
+{
+    position:absolute;
+    top:40%; 
+    right: 0%;
+    left: 25%;
+    width:600px; 
+    height:400px; 
+    z-index:2;
+    font-size:100%
+}
+b{
+    color:#00a5a5;
+}
 /*_________________________________________________________________
 
 ---------------------------FOOTER------------------------------
