@@ -15,5 +15,4 @@ fields:
   template: fap-hugo
   label: a
 pages:
-- Layaout/start.html
 - Layaout/test.html
