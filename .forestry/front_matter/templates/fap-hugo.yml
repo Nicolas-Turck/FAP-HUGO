@@ -14,5 +14,3 @@ fields:
   config: {}
   template: fap-hugo
   label: a
-pages:
-- Layaout/test.html
