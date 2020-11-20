@@ -3,7 +3,9 @@ new_page_extension: html
 auto_deploy: false
 admin_path: https://github.com/Nicolas-Turck/FAP-HUGO
 webhook_url: 
-sections: 
+sections:
+- type: heading
+  label: folder
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
