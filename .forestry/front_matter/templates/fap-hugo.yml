@@ -9,8 +9,3 @@ fields:
 - type: datetime
   name: date
   label: date
-- name: a
-  type: include
-  config: {}
-  template: fap-hugo
-  label: a
