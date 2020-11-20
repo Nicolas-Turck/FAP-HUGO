@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: https://github.com/Nicolas-Turck/FAP-HUGO/tree/main/themes/fapTh%C3%A8me
+  label: thèmes
+  create: all
+  match: "**/*"
+  templates:
+  - fap-hugo
+- type: directory
   path: content
   label: Pages
   create: all
