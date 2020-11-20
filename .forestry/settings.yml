@@ -12,8 +12,6 @@ sections:
   new_doc_ext: html
   templates:
   - fap-hugo
-- type: heading
-  label: folder
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
