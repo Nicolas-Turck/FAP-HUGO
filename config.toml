@@ -1,92 +1,73 @@
 baseURL = "http://example.org/"
 languageCode = "fr-fr"
 theme = "fapThème"
-[params]
-    description = "My First Post"
-    author = "Janne Kemppainen"
-    authorImage = "/img/abeille.png"
-    images = "/img/imgprojet.png"
-    
-
 [[menu.main]]
-  name = "L'école"
-  url = "/pages/Lecole"
-  weight = 1
-
-[[menu.main]]
-  name = "Les projets"
-  url = "/pages/projets"
-  weight = 2
-
-[[menu.main]]
-  name = "Les étudiants"
-  url = "/pages/Etudiants"
-  weight = 3
-
-[[menu.main]]
-  name = "Contact"
-  url = "/pages/Contact"
-  weight = 4
-
-[[menu.nav]]
-  name = "Tout"
-  url = "/pages/Lecole"
-  weight = 1
-
-[[menu.nav]]
-  name = "En cours"
-  url = "/pages/Lecole"
-  weight = 2
-
-[[menu.nav]]
-  name = "Les plus récents"
-  url = "/pages/Lecole"
-  weight = 3
-
-[[menu.nav]]
-  name = "Les plus anciens"
-  url = "/pages/projets"
-  weight = 4
-
-[[menu.nav]]
-  name = "Cette année"
-  url = "/pages/Etudiants"
-  weight = 5
-
-[[menu.nav]]
-  name = "Année précédentes"
-  url = "/pages/Contact"
-  weight = 6
-
-
-
-[[menu.social]]
-name = "Facebook"
-pre = "<i class='fab fa-facebook-f'></i>"
-url = "https://www.facebook.com/"
-weight = 1
-
-[[menu.social]]
-name = "YouTube"
-pre = "<i class='fab fa-youtube'></i>"
-url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
-weight = 5
-
-[[menu.social]]
-name = "Twitter"
-pre = "<i class='fab fa-twitter'></i>"
-url = "https://twitter.com/pakstech"
+name = "Contact"
+url = "/pages/Contact"
 weight = 4
-
-[[menu.social]]
-name = "Linkedin"
-pre = "<i class='fab fa-linkedin-in'></i>"
-url = "https://fr.linkedin.com/"
+[[menu.main]]
+name = "Les étudiants"
+url = "/pages/Etudiants"
+weight = 3
+[[menu.main]]
+name = "Les projets"
+url = "/pages/projets"
 weight = 2
-
+[[menu.main]]
+name = "L'école"
+url = "/pages/Lecole"
+weight = 1
+[[menu.nav]]
+name = "Année précédentes"
+url = "/pages/Contact"
+weight = 6
+[[menu.nav]]
+name = "Cette année"
+url = "/pages/Etudiants"
+weight = 5
+[[menu.nav]]
+name = "Les plus anciens"
+url = "/pages/projets"
+weight = 4
+[[menu.nav]]
+name = "Les plus récents"
+url = "/pages/Lecole"
+weight = 3
+[[menu.nav]]
+name = "En cours"
+url = "/pages/Lecole"
+weight = 2
+[[menu.nav]]
+name = "Tout"
+url = "/pages/Lecole"
+weight = 1
 [[menu.social]]
 name = "Instagram"
 pre = "<i class='fab fa-instagram'></i>"
 url = "https://www.instagram.com/"
 weight = 3
-
+[[menu.social]]
+name = "Linkedin"
+pre = "<i class='fab fa-linkedin-in'></i>"
+url = "https://fr.linkedin.com/"
+weight = 2
+[[menu.social]]
+name = "Twitter"
+pre = "<i class='fab fa-twitter'></i>"
+url = "https://twitter.com/pakstech"
+weight = 4
+[[menu.social]]
+name = "YouTube"
+pre = "<i class='fab fa-youtube'></i>"
+url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+weight = 5
+[[menu.social]]
+name = "Facebook"
+pre = "<i class='fab fa-facebook-f'></i>"
+url = "https://www.facebook.com/"
+weight = 1
+[params]
+author = "Janne Kemppainen"
+authorImage = "/img/abeille.png"
+description = "My First Post"
+images = "/img/imgprojet.png"
