@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: https://github.com/Nicolas-Turck/FAP-HUGO
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: pages
+  create: all
+  match: "**/*"
+  new_doc_ext: html
+  templates:
+  - fap-hugo
 - type: heading
   label: folder
 upload_dir: static/uploads
