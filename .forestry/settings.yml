@@ -5,7 +5,7 @@ admin_path: https://github.com/Nicolas-Turck/FAP-HUGO
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: FAP-HUGO
   label: all
   create: all
   match: "**/*"

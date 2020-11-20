@@ -11,4 +11,6 @@ fields:
   label: date
 pages:
 - Layaout/start.html
+- Layaout/start.html
+- Layaout/test.html
 - Layaout/test.html
