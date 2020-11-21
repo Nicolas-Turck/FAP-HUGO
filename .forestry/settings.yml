@@ -24,7 +24,7 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.76.5
-  preview_output_directory: "/themes/faptheme/layouts"
+  preview_output_directory: start
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
