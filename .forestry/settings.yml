@@ -24,6 +24,6 @@ build:
   preview_output_directory: FAP/themes/fapThème/layouts/
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
-  working_dir: "/srv"
+  working_dir: FAP/themes/fapThème/layouts/
   instant_preview_command: 'hugo server -D '
 version: 0.76.5
