@@ -21,7 +21,7 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.76.5
-  preview_output_directory: FAP/public/
+  preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv/FAP"
