@@ -8,6 +8,9 @@ title = "index"
 <html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body>
+      {{ with .Params.forestry_instant_preview_id }}
+  {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+{{ end -}}
         {{- partial "header.html" . -}}
         <main>
         {{- block "main" . }}{{- end }}
