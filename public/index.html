@@ -1,3 +1,6 @@
++++
+
++++
 <!DOCTYPE html>
 <html lang="fr-fr"><head>
 	<meta name="generator" content="Hugo 0.78.1" />
@@ -24,7 +27,9 @@
 <meta name="twitter:title" content="start"/>
 <meta name="twitter:description" content="My site description"/>
 
-    
+   {{ with .Params.forestry_instant_preview_id }}
+  {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+{{ end -}} 
     
     
 </head><body><header>

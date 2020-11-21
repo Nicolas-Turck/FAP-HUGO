@@ -7,7 +7,6 @@ sections:
 - type: document
   path: FAP/themes/fapThème/layouts
   label: start
-  match: "**/*"
 - type: directory
   path: ''
   label: FAP
