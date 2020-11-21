@@ -22,6 +22,7 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.76.5
   preview_output_directory: "/themes/faptheme/layouts/public"
+  install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv/themes/faptheme/layouts/"
   working_dir: "/srv/themes/faptheme/layouts/"
