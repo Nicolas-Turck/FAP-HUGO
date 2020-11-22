@@ -1,7 +1,9 @@
 {
 }
 {{ define "main" }}
-
+<meta {{ with .Params.forestry_instant_preview_id }}
+  {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+{{ end -}}/>
 
 <div class="container">
     
