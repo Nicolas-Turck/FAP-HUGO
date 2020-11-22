@@ -24,10 +24,10 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.76.5
-  preview_output_directory: "/layouts"
+  preview_output_directory: FAP/themes/fapThème/layouts
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
-  working_dir: "/srv/FAP/themes/fapThème/layouts/"
+  working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
 version: 0.76.5
