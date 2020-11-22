@@ -1,9 +1,0 @@
----
-label: tmp
-hide_body: false
-fields:
-- name: temp
-  type: text
-  config:
-    required: false
-  label: temp
