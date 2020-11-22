@@ -1,3 +1,6 @@
++++
+
++++
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -17,4 +20,7 @@
     {{ if not (in (string .Site.BaseURL) "localhost") }}
     {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
+ {{ with .Params.forestry_instant_preview_id }}
+  {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+{{ end -}}
 </head>
