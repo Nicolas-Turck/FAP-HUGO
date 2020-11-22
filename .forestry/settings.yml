@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: FAP-HUGO
+  label: projets-fap
+  create: all
+  match: "**/*"
+  templates:
+  - fap-hugo
+- type: directory
   path: content
   label: Pages
   create: all
