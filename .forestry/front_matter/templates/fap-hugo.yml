@@ -1,9 +1,0 @@
----
-label: FAP-HUGO
-hide_body: false
-fields:
-- name: title
-  type: include
-  config: {}
-  template: fap-hugo
-  label: title
