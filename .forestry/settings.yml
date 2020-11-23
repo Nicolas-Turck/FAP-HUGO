@@ -8,7 +8,7 @@ sections:
   path: static
   label: static
   create: all
-  match: "**/*"
+  match: "*"
 - type: directory
   path: ''
   label: FAP-HUGO
