@@ -13,10 +13,12 @@ sections:
   - fap-hugo
 - type: directory
   path: ''
-  label: FAP
-  create: all
+  label: FaP
+  create: none
   match: "**/*"
   new_doc_ext: html
+  templates:
+  - fap-hugo
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
