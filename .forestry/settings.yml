@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: themes/fapThème
+  path: ''
   label: FAP-HUGO
   create: all
   match: "**/*"
