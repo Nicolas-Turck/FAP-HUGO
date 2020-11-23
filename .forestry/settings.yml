@@ -13,7 +13,7 @@ sections:
   path: ''
   label: FaP
   create: none
-  match: "**/*"
+  match: "/"
   new_doc_ext: html
   templates:
   - fap-hugo
