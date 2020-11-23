@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: FAP-HUGO
+  path: ''
   label: FaP
   create: none
   match: "**/*"
