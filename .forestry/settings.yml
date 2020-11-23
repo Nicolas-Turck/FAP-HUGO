@@ -10,10 +10,10 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: ''
+  path: FAP-HUGO
   label: FaP
   create: none
-  match: "/"
+  match: "**/*"
   new_doc_ext: html
   templates:
   - fap-hugo
