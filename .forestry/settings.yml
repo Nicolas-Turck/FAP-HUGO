@@ -13,7 +13,7 @@ sections:
   path: ''
   label: FAP-HUGO
   create: all
-  match: "/"
+  match: "**/"
   new_doc_ext: html
 - type: directory
   path: content
