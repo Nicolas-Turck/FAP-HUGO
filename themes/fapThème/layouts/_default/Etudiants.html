@@ -3,14 +3,39 @@
 <div class="container">
     
   <div class="section">
-      <p>Les étudianst</p>
-      <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
+      <div class='wallpaper'>
+          <img class="classe" src="../../img/classe.jpg" alt="wallpaper NWS" />
+      </div>
+      <div class="imgtexte ">
+        <center><b>Eo adducta re per Isauriam, rege Persarum bellis finitimis inligato repellenteque a conlimitiis suis ferocissimas gentes, quae mente quadam versabili hostiliter eum saepe incessunt et in nos arma moventem aliquotiens iuvant, Nohodares quidam nomine e numero optimatum, incursare Mesopotamiam quotiens copia dederit ordinatus, explorabat nostra sollicite, si repperisset usquam locum vi subita perrupturus.</b></center>
+      </div> 
+      
   </div>
+</div>
+
+<nav class="navbaretudiantspage" role="navigation">
+  <div class="container">
+      <div class="navbar-brand">
+          <a href="/" title="home" class="navbar-item">
+              <span class="logo"><!----<h1>{{ .Site.Title }}</h1>-----></span>
+          </a>
+          
+          <a role="button" class="navbar-burger" aria-label="menuprojet" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+          </a>
+      </div>
+      <div class="navbar-menu">
+          <div class="navbar-start">
+              {{ range .Site.Menus.navetudiants }}
+              <a href="{{ .URL }}" class="navbar-item">{{ .Name }}</a>
+              {{ end }}
+          </div>
+          
+      </div>
+  </div>
+</nav>
 </div>
 
      
