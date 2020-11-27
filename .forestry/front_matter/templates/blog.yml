@@ -18,3 +18,4 @@ fields:
     display_utc: false
 pages:
 - content/post/second.md
+- layouts/singleprojets.md
