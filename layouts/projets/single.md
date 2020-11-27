@@ -4,7 +4,7 @@ draft = true
 title = ""
 
 +++
-    {{ define "main" }}
+{{ define "main" }}
     <section class="section">
       <article>
       <div class="columns is-centered">
@@ -17,4 +17,4 @@ title = ""
     </div>
       </article>
     </section>
-    {{ end }}
+ {{ end }}
