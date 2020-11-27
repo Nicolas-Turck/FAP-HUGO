@@ -4,6 +4,10 @@ draft = true
 title = "second"
 
 +++
+{{define "second"}}
+
 ## hello world
 
-# bom dia 
+# bom dia
+
+{{end}}
