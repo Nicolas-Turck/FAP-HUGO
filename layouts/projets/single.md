@@ -1,7 +1,7 @@
 +++
-date = ""
+date = 2020-11-27T08:42:00Z
 draft = true
-title = ""
+title = "single"
 
 +++
 {{ define "main" }}
