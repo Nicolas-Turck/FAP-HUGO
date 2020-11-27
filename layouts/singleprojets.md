@@ -1,7 +1,7 @@
 +++
 date = 2020-11-27T08:26:00Z
 draft = true
-title = "singleprojets"
+title = "projets"
 
 +++
 {{ define "projets" }}
