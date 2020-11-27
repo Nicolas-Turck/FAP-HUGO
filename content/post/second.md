@@ -4,10 +4,10 @@ draft = true
 title = "second"
 
 +++
-{{define "second"}}
+{{- block "second" . }}
 
 ## hello world
 
 # bom dia
 
-{{end}}
+{{- end }}
