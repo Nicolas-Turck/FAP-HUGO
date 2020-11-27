@@ -18,4 +18,5 @@ fields:
     display_utc: false
 pages:
 - content/post/second.md
+- content/this-post-is-full-of-lorem-ipsum.md
 - layouts/singleprojets.md
